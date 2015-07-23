@@ -1,0 +1,24 @@
+{
+  "name": "basisjs-tools-ast",
+  "version": "1.0.0",
+  "description": "Tool set for basisjs-tools to work with various AST",
+  "homepage": "https://github.com/basisjs/basisjs-tools-ast",
+  "author": "Roman Dvornov <rdvornov@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basisjs/basisjs-tools-ast.git"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "htmlparser2": "3.8.3"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ]
+}
