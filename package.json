@@ -1,6 +1,6 @@
 {
   "name": "basisjs-tools-ast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tool set for basisjs-tools to work with various AST",
   "homepage": "https://github.com/basisjs/basisjs-tools-ast",
   "author": "Roman Dvornov <rdvornov@gmail.com>",
