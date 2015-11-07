@@ -40,19 +40,13 @@
 
     "disallowMixedSpacesAndTabs": true,
     "disallowTrailingWhitespace": true,
-    //"validateLineBreaks": "LF",
+    "validateLineBreaks": "LF",
     "requireLineFeedAtFileEnd": true,
 
     "disallowKeywords": ["with", "eval"],
     "requireKeywordsOnNewLine": ["else", "while", "for", "do", "return", "switch", "case", "try", "break"],
     "disallowKeywordsOnNewLine": ["catch"],
     "requireCapitalizedConstructors": true,
-
-    "validateJSDoc": {
-        //"checkRedundantParams": true,
-        "checkParamNames": true,
-        "requireParamTypes": true
-    },
 
     "excludeFiles": [
         "node_modules",
