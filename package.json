@@ -17,7 +17,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "htmlparser2": "3.8.3"
+    "htmlparser2": "3.8.3",
+    "csso": "1.5.1"
   },
   "devDependencies": {
     "chai": "^3.4.0",
