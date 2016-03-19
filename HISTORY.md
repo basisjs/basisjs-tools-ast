@@ -1,3 +1,8 @@
+## 1.2.0 (March 19, 2016)
+
+- Expose `compress` method from `csso`
+- Bump `csso` to `1.7.1`
+
 ## 1.1.0 (January 19, 2016)
 
 - Use parser, traslator and walker from `csso`
