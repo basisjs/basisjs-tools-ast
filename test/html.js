@@ -1,5 +1,5 @@
 var fs = require('fs');
-var assert = require('chai').assert;
+var assert = require('assert');
 var html = require('../lib/html/index.js');
 
 var tests = [
