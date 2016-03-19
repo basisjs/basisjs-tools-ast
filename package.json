@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "htmlparser2": "3.8.3",
-    "csso": "1.5.1"
+    "csso": "^1.7.1"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
