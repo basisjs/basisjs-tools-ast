@@ -1,3 +1,7 @@
+## 1.3.0 (March 24, 2016)
+
+- Bump `csso` to `1.8.0`
+
 ## 1.2.0 (March 19, 2016)
 
 - Expose `compress` method from `csso`
