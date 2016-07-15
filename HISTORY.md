@@ -1,3 +1,7 @@
+## 1.4.0 (July 15, 2016)
+
+- Use `basis.js` declaration AST walker when possible
+
 ## 1.3.0 (March 24, 2016)
 
 - Bump `csso` to `1.8.0`
