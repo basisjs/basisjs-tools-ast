@@ -1,3 +1,7 @@
+## 1.4.1 (July 15, 2016)
+
+- Fix template processing for old versions of `basis.js`
+
 ## 1.4.0 (July 15, 2016)
 
 - Use `basis.js` declaration AST walker when possible
