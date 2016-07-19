@@ -1,3 +1,7 @@
+## 1.4.2 (July 18, 2016)
+
+- Fixed issue with `invert` binding (`CLASS_BINDING_INVERT`) support in templates
+
 ## 1.4.1 (July 15, 2016)
 
 - Fix template processing for old versions of `basis.js`
