@@ -10,12 +10,24 @@
   "engines": {
     "node": ">=0.12.0"
   },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "rules": {
+      "no-undef": 2,
+      "no-unused-vars": [2, {"vars": "all", "args": "after-used"}]
+    }
+  },
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
     "htmlparser2": "3.8.3",
-    "csso": "^1.8.0"
+    "csso": "^3.0.1",
+    "css-tree": "csstree/csstree"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
