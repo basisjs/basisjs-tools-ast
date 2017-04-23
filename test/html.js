@@ -9,35 +9,35 @@ var tests = [
     }
 ];
 
-function cleanAst(ast){
-  function walkNode(nodes){
-    nodes = nodes.slice();
+function cleanAst(ast) {
+    function walkNode(nodes) {
+        nodes = nodes.slice();
 
-    for (var i = 0, node; node = nodes[i]; i++) {
-        var newNode = {};
+        for (var i = 0, node; node = nodes[i]; i++) {
+            var newNode = {};
 
-        nodes[i] = newNode;
+            nodes[i] = newNode;
 
-        for (var key in node) {
-            if (key !== 'next' && key !== 'prev' && key !== 'parent') {
-                newNode[key] = node[key];
+            for (var key in node) {
+                if (key !== 'next' && key !== 'prev' && key !== 'parent') {
+                    newNode[key] = node[key];
+                }
+            }
+
+            if (node.children) {
+                newNode.children = walkNode(node.children);
             }
         }
 
-        if (node.children) {
-            newNode.children = walkNode(node.children);
-        }
+        return nodes;
     }
 
-    return nodes;
-  }
-
-  return walkNode(ast);
+    return walkNode(ast);
 }
 
-describe('parse html', function(){
+describe('parse html', function() {
     function createTest(num) {
-        it('test#' + num, function(){
+        it('test#' + num, function() {
             var expected = tests[num].ast;
             var actual = cleanAst(html.parse(tests[num].source));
 
