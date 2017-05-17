@@ -25,9 +25,9 @@
     "test": "mocha"
   },
   "dependencies": {
-    "htmlparser2": "3.8.3",
-    "csso": "^3.0.1",
-    "css-tree": "csstree/csstree"
+    "htmlparser2": "~3.9.2",
+    "csso": "^3.1.1",
+    "css-tree": "csstree-alpha19"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
