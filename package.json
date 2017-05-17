@@ -27,7 +27,7 @@
   "dependencies": {
     "htmlparser2": "~3.9.2",
     "csso": "^3.1.1",
-    "css-tree": "csstree-alpha19"
+    "css-tree": "1.0.0-alpha19"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
