@@ -1,3 +1,8 @@
+## 1.5.0 (May 17, 2017)
+
+- Moved to [CSSTree](https://github.com/csstree/csstree) AST format for CSS
+- Bump `csso` to `^3.1.1`
+
 ## 1.4.2 (July 18, 2016)
 
 - Fixed issue with `invert` binding (`CLASS_BINDING_INVERT`) support in templates
