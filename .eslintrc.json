@@ -37,10 +37,6 @@
         "SwitchCase": 1
       }
     ],
-    "max-len": [
-      "error",
-      120
-    ],
     "newline-after-var": "error",
     "newline-before-return": "error",
     "no-multiple-empty-lines": [
