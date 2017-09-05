@@ -1,6 +1,10 @@
+## 1.6.0 (September 5, 2017)
+
+- Migrated to [ESTree](https://github.com/estree/estree) AST format for JavaScript, with [esprima](https://github.com/jquery/esprima), [estraverse](https://github.com/estools/estraverse) and [escodegen](https://github.com/estools/escodegen) as backend (@smelukov #4, #5)
+
 ## 1.5.0 (May 17, 2017)
 
-- Moved to [CSSTree](https://github.com/csstree/csstree) AST format for CSS
+- Migrated to [CSSTree](https://github.com/csstree/csstree) AST format for CSS
 - Bump `csso` to `^3.1.1`
 
 ## 1.4.2 (July 18, 2016)
