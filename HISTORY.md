@@ -1,3 +1,7 @@
+## 1.6.1 (January 16, 2018)
+
+- Bump `csso` to `~3.5.0` (fix API changes issue)
+
 ## 1.6.0 (September 5, 2017)
 
 - Migrated to [ESTree](https://github.com/estree/estree) AST format for JavaScript, with [esprima](https://github.com/jquery/esprima), [estraverse](https://github.com/estools/estraverse) and [escodegen](https://github.com/estools/escodegen) as backend (@smelukov #4, #5)
