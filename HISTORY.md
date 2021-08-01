@@ -1,4 +1,4 @@
-## next
+## 1.6.2 (August 1, 2021)
 
 - Bump `htmlparser` to 4.1 to fix HTML serialization
 
