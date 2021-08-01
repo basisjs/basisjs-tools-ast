@@ -1,3 +1,7 @@
+## next
+
+- Bump `htmlparser` to 4.1 to fix HTML serialization
+
 ## 1.6.1 (January 16, 2018)
 
 - Bump `csso` to `~3.5.0` (fix API changes issue)
